@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+    <title>Book List</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div>
+
+    <br/>
+
+    <form
+
+       <div class="form-group mb-8">
+
+            <h3 ALIGN="CENTER">{% if type %}{{ type.name }}{% else %} Enter your favourite book {% endif %}</h3>
+
+       </div>
+
+       <center><div class="form-group mx-sm-3 mb-2">
+
+        <label for="" class="sr-only">search</label>
+
+        <input name="search" type="" class="form-control" id="" placeholder="Keyword">
+
+        </div><center>
+
+        <button type="submit" class="btn btn-success btn-lg mb-2">Search</button>
+
+   </form>
+
+        <br/>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
